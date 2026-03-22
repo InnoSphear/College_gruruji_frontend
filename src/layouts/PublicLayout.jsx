@@ -53,7 +53,7 @@ function PublicLayout() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
           <Link to="/" className="flex items-center gap-2">
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-[var(--primary-color)] to-[var(--accent-color)] text-sm font-bold text-white">
-              K+
+              CG
             </span>
             <span className="text-lg font-bold text-[var(--primary-color)]">
               {siteName}

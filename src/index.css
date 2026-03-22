@@ -1,10 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Lato:wght@300;400;700;900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --primary-color: #0b5ed7;
-  --accent-color: #ff7a18;
-  --surface-color: #f4f8ff;
+  --ka-primary: #16324f;
+  --ka-primary-soft: #4777c4;
+  --ka-accent: #f47062;
+  --ka-border: #d4deea;
+  --ka-muted: #64748b;
+  --ka-surface: #f8fafd;
+  --primary-color: #16324f;
+  --accent-color: #f47062;
+  --surface-color: #f8fafd;
 }
 
 * {
@@ -13,10 +19,51 @@
 
 body {
   margin: 0;
-  font-family: "Outfit", "Segoe UI", sans-serif;
+  min-height: 100vh;
+  font-family: "Lato", "Inter", "Segoe UI", sans-serif;
   color: #0f172a;
-  background:
-    radial-gradient(800px circle at 5% -10%, #dbeafe 0%, transparent 55%),
-    radial-gradient(700px circle at 100% -20%, #ffedd5 0%, transparent 45%),
-    linear-gradient(180deg, #f8fbff 0%, var(--surface-color) 50%, #eef4ff 100%);
+  background: #fff;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.ka-container {
+  width: min(1360px, calc(100% - 1rem));
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .ka-container {
+    width: min(1360px, calc(100% - 2rem));
+  }
+}
+
+.ka-title-font {
+  font-family: "Gabarito", "Lato", "Segoe UI", sans-serif;
+}
+
+.ka-shadow-1 {
+  box-shadow: 0 0 24px rgba(101, 101, 101, 0.14);
+}
+
+.ka-shadow-2 {
+  box-shadow: 0 0 9px rgba(190, 190, 190, 0.25);
+}
+
+.ka-grid-pattern {
+  background-image:
+    linear-gradient(rgba(22, 50, 79, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(22, 50, 79, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.ka-no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.ka-no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

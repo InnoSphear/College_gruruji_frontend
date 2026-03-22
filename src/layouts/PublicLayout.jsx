@@ -106,7 +106,7 @@ function PublicLayout() {
       .toUpperCase()
     : 'U';
 
-  const siteName = cms?.branding?.siteName || 'KollegeApply';
+  const siteName = cms?.branding?.siteName || 'CollegeGuruji';
   const tagline = cms?.branding?.tagline || 'Empowering Education';
 
   useEffect(() => {
@@ -135,8 +135,8 @@ function PublicLayout() {
               <div className="flex items-center gap-6">
                 <Link to="/" className="flex items-center gap-2 text-nowrap">
                   <img
-                    src="https://www.kollegeapply.com/new-logo.svg"
-                    alt="KollegeApply logo"
+                    src="https://digibuddy.in/wp-content/uploads/2020/10/digital-buddy-logo-PNG.png"
+                    alt="College Guruji Logo"
                     className="h-[30px] w-[40px] object-contain"
                   />
                   <div>
@@ -368,7 +368,7 @@ function PublicLayout() {
               </Link>
               <p className="mt-1 text-xs text-blue-950">{tagline}</p>
               <div className="mt-5 space-y-1 text-sm text-[#408ee0]">
-                <Link className="block hover:text-[#16324f]" to="/">About KollegeApply</Link>
+                <Link className="block hover:text-[#16324f]" to="/">About CollegeGuruji</Link>
                 <Link className="block hover:text-[#16324f]" to="/">Contact Us</Link>
                 <Link className="block hover:text-[#16324f]" to="/">Careers</Link>
                 <Link className="block hover:text-[#16324f]" to="/">Terms & Conditions</Link>

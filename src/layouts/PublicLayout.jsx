@@ -243,8 +243,8 @@ function PublicLayout() {
 
                 <Link to="/" className="flex items-center gap-2">
                   <img
-                    src="https://www.kollegeapply.com/new-logo.svg"
-                    alt="KollegeApply logo"
+                    src="https://digibuddy.in/wp-content/uploads/2020/10/digital-buddy-logo-PNG.png"
+                    alt="College Guruji logo"
                     className="h-5 w-6 object-contain"
                   />
                   <span className="ka-title-font text-base font-medium">{siteName}</span>
@@ -436,7 +436,7 @@ function PublicLayout() {
 
         <div className="border-t border-slate-200 py-4">
           <div className="ka-container flex flex-col items-center justify-between gap-2 text-sm text-slate-700 lg:flex-row">
-            <p>© {new Date().getFullYear()} KollegeApply</p>
+            <p>© {new Date().getFullYear()} CollegeGuruji</p>
             <div className="flex flex-col items-center gap-2 text-xs sm:flex-row sm:text-sm">
               <p>
                 <span>Regular Helpdesk:</span>

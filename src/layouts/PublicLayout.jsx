@@ -127,22 +127,6 @@ function PublicLayout() {
   };
 
   return (
-<<<<<<< HEAD
-    <div
-      className="min-h-screen bg-[var(--surface-color)] text-slate-900"
-      style={themeStyle}
-    >
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-[var(--primary-color)] to-[var(--accent-color)] text-sm font-bold text-white">
-              CG
-            </span>
-            <span className="text-lg font-bold text-[var(--primary-color)]">
-              {siteName}
-            </span>
-          </Link>
-=======
     <div className="min-h-screen bg-white text-slate-900">
       <header className="sticky top-0 z-50">
         <div className="hidden bg-white/95 pb-2 backdrop-blur lg:block">
@@ -160,7 +144,6 @@ function PublicLayout() {
                     <p className="-mt-0.5 text-[11px] text-blue-100">{tagline}</p>
                   </div>
                 </Link>
->>>>>>> 52824ab (Updated some features / fixed bugs)
 
                 <form onSubmit={handleSearch} className="relative flex flex-1 items-center overflow-hidden rounded-md bg-white">
                   <input
